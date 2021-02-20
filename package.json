@@ -1,0 +1,28 @@
+{
+  "name": "cicd_lab",
+  "version": "1.0.0",
+  "description": "Learning about CI/CD, LS_Lab5",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spades0/cicd_lab.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Spades0/cicd_lab/issues"
+  },
+  "homepage": "https://github.com/Spades0/cicd_lab#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.0",
+    "should": "^13.2.3",
+    "supertest": "^6.1.3"
+  }
+}
