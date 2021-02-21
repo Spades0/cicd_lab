@@ -1,0 +1,8 @@
+#!/bin/sh     
+ssh master@10.1.1.55 <<EOF       
+ cd /Jenkins 
+ git pull      
+ npm install --production      
+ pm2 restart all
+ exit      
+EOF
