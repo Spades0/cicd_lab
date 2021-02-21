@@ -1,8 +1,9 @@
 #!/bin/sh     
-ssh master@10.1.1.55 <<EOF       
- cd /Jenkins 
+ssh master@10.1.1.54 <<EOF       
+ cd ~/cicd_lab
  git pull      
  npm install --production      
+ pm2 start app.js
  pm2 restart all
  exit      
 EOF
